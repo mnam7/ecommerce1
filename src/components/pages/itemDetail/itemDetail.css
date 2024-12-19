@@ -1,0 +1,29 @@
+.imageDetail{
+    height: 250px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.detailContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.txt-desc-container{
+    width: 500px;
+}
+.txt-description{
+    text-align: center;
+}
+
+
+
+.spinner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

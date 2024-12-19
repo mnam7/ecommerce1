@@ -1,0 +1,84 @@
+.container-navbar{
+    background-color: #333344; 
+    width: 100%;  
+    }
+    
+    .logo{
+       margin:20px;
+     
+    }
+    .logo-text{
+       color:white;
+       margin-bottom:0;
+       text-align: center;
+    }
+    
+    
+    .nav-link{
+       color:white!important;
+    }
+    
+    .nav-link:hover{
+       color:blueviolet!important;
+    }
+    .menu {
+       display: flex;
+       gap:80px;
+       list-style-type: none;
+       padding: 0;
+       margin: 0 auto;
+       justify-content: space-evenly;
+       flex-direction: row;
+      
+     }
+    
+     .nav {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px 20px;
+     }
+     
+    
+     
+     .searchbar {
+       
+       display: flex;
+       justify-content: flex-end;
+       min-width: 200px;
+       border-radius: 10px;
+       background-color: white;
+       height: 2.5rem;
+       padding: 0 15px;
+       box-shadow: 0px 0px 3px #fff;
+       align-items: center;
+       margin-right:20px;
+      
+     }
+    
+     input{
+       background-color: transparent;
+       border:none;
+       height: 100%;
+       font-size: 1.25rem;
+       width:100%;
+       margin-left: 5px;
+     }
+    
+      input:focus{
+       outline:none;
+      }
+     
+     /* Opcional: Estilo del widget */
+     .cart-widget {
+       margin-left: 15px;
+     }
+
+     .link-color:visited{
+      color:white;
+     }
+
+     a{
+      text-decoration: none;
+     }
+  
